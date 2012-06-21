@@ -1,0 +1,52 @@
+<html>
+<head>
+	<h3>welcome !</h3>
+<HR>
+</head>
+<body>
+	<table width="100%" height="100%" class="main_table" cellpadding="4" cellspacing="3">
+<tr>
+	<td height="20" class="cells" colspan="2">
+	<font size="4"><b> chat room</b>
+	</td>
+</tr>
+<tr>
+<td class="cells" >
+	<p>picture</p>
+	<!--图片显示页面 -->
+	<iframe src="picture.html" width="100%" height="100%" border="2" name="picture" frameborder="0" style="border:0px solid black">
+	</iframe>
+	</td>
+	<td class="cells" width= 200>
+	<!-- 嵌入在线用户显示页面-->
+	<p>userlist</p>
+	<iframe src="userlist.html" width="100%" height="60%" border="2" name="currentusers" frameborder="0" style="border:0px solid black" >
+	</iframe>
+	<!--嵌入用户功能页面-->
+	<p>action</p>
+	<iframe src="action.html" width="100%" height="40%" border="2" name="actions" frameborder="0" style="border:0px solid black" >
+	</iframe>
+	</td>
+</tr>
+<tr>
+	<td class="cells" >
+	<p>chatboard</p>
+	<!-- 嵌入聊天室发言显示页面 -->
+	<iframe src="chatboard.html" width="100%" height="100%" border="2" name="chatboard" frameborder="0" style="border:0px solid black">
+	</iframe>
+	</td>
+	
+</tr>
+<tr>
+	<td height="40" class="cells" colspan="2" valign="middle">
+	<!--嵌入发言功能页面-->
+	<p>message</p>
+	<iframe src="sendmsg.html" width="100%" height="100%" border="2" name="msg" frameborder="3" marginheight="3" marginwidth="3" style="border:1px solid black" >
+	</iframe>
+	</td>
+</tr>
+
+</table>
+</body>
+
+</html>
